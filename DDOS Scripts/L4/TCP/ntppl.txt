@@ -1,0 +1,1 @@
+perl ntp.pl 127.0.0.1 80 3600 ntp.txt 5

@@ -1,0 +1,1 @@
+python ntp-py.py 127.0.0.1 ntp.txt 5

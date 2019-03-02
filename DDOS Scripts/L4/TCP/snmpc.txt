@@ -1,0 +1,1 @@
+./snmp-c -t 127.0.0.1 -f snmp.txt -l 30
