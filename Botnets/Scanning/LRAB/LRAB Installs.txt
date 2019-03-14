@@ -1,0 +1,11 @@
+yum install gcc php-devel php-pear libssh2 libssh2-devel
+
+pecl install -f ssh2 
+enter 
+
+touch /etc/php.d/ssh2.ini
+
+echo extension=ssh2.so > /etc/php.d/ssh2.ini
+yum install cpan -y
+cpan force install Net::SSH2
+cpan force install Parallel::ForkManager

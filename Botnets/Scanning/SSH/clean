@@ -1,0 +1,11 @@
+echo -e "Cleaning..."
+./f1 vuln.txt
+sleep 2
+cat dup.txt |sort -u >>dup2.txt
+./f2 dup2.txt
+sleep 2
+./f3 vuln.txt
+sleep 2
+rm -rf vuln.txt dup.txt dup2.txt bios.txt cleanlist mfu.txt
+cat eof.txt
+

@@ -1,0 +1,8 @@
+./class 22 -a 90 -i eth0 -s 10
+./class 22 -a 91 -i eth0 -s 10
+./class 22 -a 92 -i eth0 -s 10
+./class 22 -a 93 -i eth0 -s 10
+./class 22 -a 94 -i eth0 -s 10
+./class 22 -a 95 -i eth0 -s 10
+cat bios.txt | sort | uniq > mfu.txt
+./update 2500

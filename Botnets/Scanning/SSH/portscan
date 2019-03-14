@@ -1,0 +1,41 @@
+#!/bin/bash 
+BLACK='\e[0;30m'
+BLUE='\e[0;34m'
+GREEN='\e[0;32m'
+CYAN='\e[0;36m'
+RED='\e[0;31m'
+PURPLE='\e[0;35m'
+BROWN='\e[0;33m'
+LIGHTGRAY='\e[0;37m'
+DARKGRAY='\e[1;30m'
+LIGHTBLUE='\e[1;34m'
+LIGHTGREEN='\e[1;32m'
+LIGHTCYAN='\e[1;36m'
+LIGHTRED='\e[1;31m'
+LIGHTPURPLE='\e[1;35m'
+YELLOW='\e[1;33m'
+WHITE='\e[1;37m'
+NC='\e[0m'   
+echo -e "\e[0;31m _____           _                        "
+echo -e "|  __ \         | |                       "
+echo -e "| |__) |__  _ __| |_ ___  ___ __ _ _ __   "
+echo -e "|  ___/ _ \| '__| __/ __|/ __/ _  | '_ \  "
+echo -e "| |  | (_) | |  | |_\__ \ (_| (_| | | | | "
+echo -e "|_|   \___/|_|   \__|___/\___\__,_|_| |_| "
+./class
+echo
+rm -rf bios.txt*
+echo "a or b"
+read iclass
+echo "Enter Port: "
+read port
+echo "Enter Range: "
+read range
+echo "Enter Interface: "
+read interface
+if [ $iclass == "a" ]; then
+./class $port -a $range -i $interface -s 10
+elif [ $iclass == "b" ]; then
+./class $port -a $range -i $interface -s 10
+fi
+cat bios.txt | sort | uniq > mfu.txt
