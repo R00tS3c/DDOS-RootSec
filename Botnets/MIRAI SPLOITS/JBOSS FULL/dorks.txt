@@ -1,0 +1,7 @@
+inurl:"8080/jmx-console/"
+inurl:"console/Invoker"
+intitle:"JMX Console"
+intitle:"MBean Inspector"
+intitle:JMX inurl:"/HtmlAdaptor?"
+intitle:"JMX MBean View"
+intitle:"JBoss JMX Management Console"

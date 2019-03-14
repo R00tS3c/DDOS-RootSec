@@ -1,0 +1,3 @@
+open realtek.py and change payload and elf.mips to whatever you have.
+run, ulimit -n 999999; sh j.sh
+it will load

