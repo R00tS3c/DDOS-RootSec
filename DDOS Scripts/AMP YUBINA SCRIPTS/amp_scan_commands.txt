@@ -1,0 +1,34 @@
+
+
+SSDP Scan & Filter Commands:
+screen ./ssdpscan 1.1.1.1 255.255.255.255 unfilteredssdp.txt 15 10 100
+
+cat unfilteredssdp.txt | awk '{if($2 > 250){print $1}}' > filter1.txt
+
+cat filter1.txt | awk '{print $1}' | sort -n | uniq -c | awk '$1 > 10' | awk '{print $2 " " $1}' > ssdp_amp.txt
+
+NTP Scan & Filter Commands:
+screen zmap -p 123 -M udp --probe-args=file:/root/ntp_123_monlist.pkt -o monlist_fingerprint.txt
+
+screen ./ntpchecker monlist_fingerprint.txt step1.txt 1 0 1
+
+awk '$2>419{print $1}' step1.txt | sort -n | uniq | sort -R > ntp_amp.txt
+
+DNS Scan Command:
+screen ./dnsscanner 1 255 dns_amp.txt 15 1
+
+MSSQL Scan Command:
+screen ./MSSQLSCAN 1.1.1.1 255.255.255.255 sql_amp.txt 15 0
+
+TS3 Scan Command:
+screen ./ts3scan 1.1.1.1 255.255.255.255 ts3_amp.txt 15 100
+
+
+Quake Scan Command:
+screen ./quake_scanner 1.1.1.1 255.255.255.255 quake_amp.txt 15 100 50
+
+Chargen Scan Command:
+screen ./chargescan 1.1.1.1 255.255.255.255 chargen_amp.txt 15 100
+
+SNMP Scan Command:
+screen ./snmpscan 1.1.1.1 255.255.255.255 snmp_amp.txt 15 0

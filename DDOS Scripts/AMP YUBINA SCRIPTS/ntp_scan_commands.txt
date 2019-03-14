@@ -1,0 +1,72 @@
+How to scan
+
+Spoiler (Click to Hide)
+Update your server
+Code:
+yum -y update
+Install repositorys
+Centos 6:
+Code:
+
+wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+sudo rpm -Uvh epel-release-6-8.noarch.rpm
+Centos 7:
+
+Code:
+
+wget http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+sudo rpm -Uvh epel-release-7-5.noarch.rpm
+Install dependencies
+
+Code:
+yum install gcc libcap  libpcap libpcap-devel screen php dstat cmake gmp gmp-devel gengetopt byacc flex git json-c
+
+Install Zmap
+
+Code:
+yum -y install zmap
+
+- Upload the NTPChecker to your server -
+- Upload the ntp_123_monlist.pkt to your server -
+
+
+
+How to scan
+
+Spoiler (Click to Hide)
+Update your server
+Code:
+yum -y update
+Install repositorys
+Centos 6:
+Code:
+wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+sudo rpm -Uvh epel-release-6-8.noarch.rpm
+Centos 7:
+Code:
+wget http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+sudo rpm -Uvh epel-release-7-5.noarch.rpm
+Install dependencies
+Code:
+yum install gcc libcap  libpcap libpcap-devel screen php dstat cmake gmp gmp-devel gengetopt byacc flex git json-c
+Install Zmap
+Code:
+yum -y install zmap
+
+- Upload the NTPChecker to your server -
+- Upload the ntp_123_monlist.pkt to your server -
+
+Start the scan
+Code:
+screen zmap -p 123 -M udp --probe-args=file:/root/ntp_123_monlist.pkt -o monlist_fingerprint.txt
+It can take pretty long please wait it out.
+Run the ntpchecker
+Give it permissions first:
+Code:
+chmod 777 ntpchecker
+Run the checker:
+Code:
+screen ./ntpchecker monlist_fingerprint.txt step1.txt 1 0 1
+Filter the list
+Code:
+awk '$2>419{print $1}' step1.txt | sort -n | uniq | sort -R > ntpamp.txt
