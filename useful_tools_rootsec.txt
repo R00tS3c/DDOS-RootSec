@@ -30,3 +30,15 @@ Small VBS Crypter
 VBS-Worm Crypter
 Download: https://difl.host/8d09563854b8560a/Crypters-r00ts3c.github.io.zip
 
+RATS:
+
+Crypt0r 0.1 Source
+DarkComet 5.3.1
+NanoCore Cracked
+njRAT 0.7
+njRAT Lime Edition
+njRAT M.A.H
+NodeRAT.Io
+Plasma RAT 1.7
+ProRat 2.1
+Download: https://difl.host/740788b9c2998cb9/RATS-r00ts3c.github.io.zip
