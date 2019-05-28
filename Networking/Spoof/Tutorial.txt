@@ -4,3 +4,4 @@
 4. :  If you have Iptables Spoof, you can not do a yum update or apt-get update. That's why you can make the spoof on the command:
 sudo iptables -t nat -F and then turn it on again when you're done with installation.
 5. For monitoring use "TCPDUMP" :  tcpdump -i eth0 ip -X dst host "IP from your second VPS"
+NOTE: This work on all VPS servers that are not OpenVZ
