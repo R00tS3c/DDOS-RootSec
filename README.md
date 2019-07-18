@@ -14,6 +14,7 @@
   <a href="#">
       <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
   </a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2FR00tS3c%2FDDOS-RootSec?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FR00tS3c%2FDDOS-RootSec.svg?type=shield"/></a>
   <a href="#">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
   </a>
@@ -51,3 +52,6 @@ GPL-3.0
 ---
 
 > GitHub [@R00tS3c](https://github.com/R00tS3c) &nbsp;&middot;&nbsp;
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FR00tS3c%2FDDOS-RootSec.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FR00tS3c%2FDDOS-RootSec?ref=badge_large)
