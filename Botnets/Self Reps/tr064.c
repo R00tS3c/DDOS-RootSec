@@ -25,7 +25,7 @@
 #include "headers/rand.h"
 #include "headers/util.h"
 #include "headers/checksum.h"
-//BY B4CKDOOR
+
 int tr064_scanner_pid = 0, tr064_rsck = 0, tr064_rsck_out = 0;
 char tr064_scanner_rawpkt[sizeof(struct iphdr) + sizeof(struct tcphdr)] = {0};
 struct tr064_scanner_connection *conn_table;
