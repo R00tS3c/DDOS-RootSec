@@ -7,18 +7,8 @@
 </h1>
 
 <h4 align="center">DDOS Archive by RootSec (Scanners, BotNets (Mirai and QBot Premium & Normal and more), Exploits, Methods, Sniffers).</h4>
-<p align="center">
-    <a href="http://waffle.io/R00tS3c/DDOS-RootSec"><img src="https://badge.waffle.io/OrigemWoot/OrigemWoot.svg?label=ready&title=Ready"></a>
-  </a>
-  <a href="#"><img src="https://badges.gitter.im/OrigemWootOW/Lobby.svg"></a>
-  <a href="#">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
-  </a>
-<a href="https://app.fossa.io/projects/git%2Bgithub.com%2FR00tS3c%2FDDOS-RootSec?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FR00tS3c%2FDDOS-RootSec.svg?type=shield"/></a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
-  </a>
-</p>
+<p align="center">  <a href="https://t.me/rootsechub"><img width="160" height="50" src="https://i.imgur.com/N7AK7XY.png"></a></p>
+
 
 
 ## FILES
