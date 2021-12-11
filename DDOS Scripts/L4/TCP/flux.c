@@ -76,7 +76,7 @@ main(int argc, char * argv[]){
   
    int counter = 0;  //counter for the while loop. 
       
-      printf("Syn Flooding: %Â­s at port: %Â­s\n", argv[1],argv[2]); 
+      printf("Syn Flooding: %­s at port: %­s\n", argv[1],argv[2]); 
       
       while(counter != packets){ 
        synp.ihl             = 5; 
@@ -175,7 +175,7 @@ void getUserPriv(){
    system(command); 
   
    fp = fopen(fname, "r"); 
-   fscanf(fp, "%Â­s",&user); 
+   fscanf(fp, "%­s",&user); 
    fclose(fp); 
    system(command2); 
   
