@@ -1,0 +1,1 @@
+You can scan SOAP/WSD with Zmap using the probe https://github.com/zmap/zmap/blob/master/examples/udp-probes/wsd_3702.pkt
