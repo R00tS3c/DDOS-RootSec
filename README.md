@@ -30,7 +30,7 @@
 
 ## USING
 
-<h3>BEFORE USE READ OUR TERMS AT <a href="https://github.com/R00tS3c/DDOS-RootSec/blob/master/ToS.md">ToS</a>.
+<h3>BEFORE USE READ OUR TERMS AT <a href="https://github.com/R00tS3c/DDOS-RootSec/blob/master/ToS.md">ToS</a>.</h3>
 ```
 ALL TUTORIALS THAT U WILL NEED U CAN FIND IN HOW TO USE FOLDER OR FOLDER OF THAT SHIT THAT U WANT TO USE!
 ```
