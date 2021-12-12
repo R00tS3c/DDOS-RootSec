@@ -10,7 +10,6 @@
 <p align="center">  <a href="https://t.me/rootsechub"><img width="160" height="50" src="https://i.imgur.com/N7AK7XY.png"></a></p>
 
 
-
 ## FILES
 
 * Mirai edits (priv8 and public)
@@ -31,6 +30,7 @@
 
 ## USING
 
+<h3>BEFORE USE READ OUR TERMS AT <a href="https://github.com/R00tS3c/DDOS-RootSec/blob/master/ToS.md">ToS</a>.
 ```
 ALL TUTORIALS THAT U WILL NEED U CAN FIND IN HOW TO USE FOLDER OR FOLDER OF THAT SHIT THAT U WANT TO USE!
 ```
