@@ -35,6 +35,10 @@
 ALL TUTORIALS THAT U WILL NEED U CAN FIND IN HOW TO USE FOLDER OR FOLDER OF THAT SHIT THAT U WANT TO USE!
 ```
 
+## CREDITS
+> [@R00tS3c](https://github.com/R00tS3c)
+> [@Nexus](https://github.com/Nexuzzzz)
+
 #### License
 
 GPL-3.0
