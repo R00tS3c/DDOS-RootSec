@@ -7,7 +7,7 @@
 </h1>
 
 <h4 align="center">DDOS Archive by RootSec (Scanners, BotNets (Mirai and QBot Premium & Normal and more), Exploits, Methods, Sniffers).</h4>
-<p align="center">  <a href="https://t.me/rootsechub"><img width="160" height="50" src="https://i.imgur.com/N7AK7XY.png"></a></p>
+<p align="center">  <a href="https://t.me/realsecgroup"><img width="160" height="50" src="https://i.imgur.com/N7AK7XY.png"></a></p>
 
 
 ## FILES
