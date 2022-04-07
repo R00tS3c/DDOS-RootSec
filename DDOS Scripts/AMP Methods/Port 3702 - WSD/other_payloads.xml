@@ -1,0 +1,5 @@
+<tds:GetDeviceInformation />
+<tds:GetServices />
+<tds:GetCapabilities />
+<trt:GetProfiles />
+

