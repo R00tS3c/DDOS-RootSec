@@ -1,4 +1,3 @@
-//LEAKED By RPP33, CAT LEAKS: https://t.me/catleaks
 #include <time.h>
 #include <pthread.h>
 #include <stdio.h>
