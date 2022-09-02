@@ -1,0 +1,27 @@
+-------------------------------------------
+You build Layer4 scripts with next command:
+
+gcc script.c -o script -pthread
+-------------------------------------------
+For Layer7 scripts
+
+You need to install Node.js if its script.js else if its Python - Python is by default installed
+Installing node.js
+
+Debian/Ubuntu:
+apt install nodejs
+apt install npm
+
+CentOS:
+yum install --assumeyes epel-release
+yum install --assumeyes nodejs
+
+Running:
+
+1. Do command "node script.js"
+2. After that u will see error for missing package
+3. Than do "npm install package-name" do that for every next error
+4. If you installed all packages needed "node script.js"
+-------------------------------------------
+Python Layer7 scripts its same like in upper step see what packages are mising and install
+just instead node you will write "python script.py" and "pip install package-name" or "pip3 install package-name"
