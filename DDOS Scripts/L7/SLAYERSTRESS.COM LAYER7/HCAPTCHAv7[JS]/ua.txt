@@ -1,0 +1,63 @@
+Mozilla/5.0 (Windows NT 6.1; rv:104.0) Gecko/20100101 Firefox/104.0
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:104.0) Gecko/20100101 Firefox/104.0
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0
+Mozilla/5.0 (Windows NT 6.3; rv:104.0) Gecko/20100101 Firefox/104.0
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:104.0) Gecko/20100101 Firefox/104.0
+Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0
+Mozilla/5.0 (Windows NT 10.0; rv:104.0) Gecko/20100101 Firefox/104.0
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:104.0) Gecko/20100101 Firefox/104.0
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0
+Mozilla/5.0 (Windows NT 6.1; rv:103.0) Gecko/20100101 Firefox/103.0
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:103.0) Gecko/20100101 Firefox/103.0
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:103.0) Gecko/20100101 Firefox/103.0
+Mozilla/5.0 (Windows NT 6.3; rv:103.0) Gecko/20100101 Firefox/103.0
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:103.0) Gecko/20100101 Firefox/103.0
+Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:103.0) Gecko/20100101 Firefox/103.0
+Mozilla/5.0 (Windows NT 10.0; rv:103.0) Gecko/20100101 Firefox/103.0
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:103.0) Gecko/20100101 Firefox/103.0
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:103.0) Gecko/20100101 Firefox/103.0
+Mozilla/5.0 (Windows NT 6.1; rv:102.0) Gecko/20100101 Firefox/102.0
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:102.0) Gecko/20100101 Firefox/102.0
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Mozilla/5.0 (Windows NT 6.3; rv:102.0) Gecko/20100101 Firefox/102.0
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:102.0) Gecko/20100101 Firefox/102.0
+Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Mozilla/5.0 (Windows NT 10.0; rv:102.0) Gecko/20100101 Firefox/102.0
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:102.0) Gecko/20100101 Firefox/102.0
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Mozilla/5.0 (Windows NT 6.1; rv:101.00) Gecko/20100101 Firefox/101.00
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:101.00) Gecko/20100101 Firefox/101.00
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:101.00) Gecko/20100101 Firefox/101.00
+Mozilla/5.0 (Windows NT 6.3; rv:101.00) Gecko/20100101 Firefox/101.00
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:101.00) Gecko/20100101 Firefox/101.00
+Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:101.00) Gecko/20100101 Firefox/101.00
+Mozilla/5.0 (Windows NT 10.0; rv:101.00) Gecko/20100101 Firefox/101.00
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:101.00) Gecko/20100101 Firefox/101.00
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.00) Gecko/20100101 Firefox/101.00
+Mozilla/5.0 (Windows NT 6.1; rv:100.0) Gecko/20100101 Firefox/100.0
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:100.0) Gecko/20100101 Firefox/100.0
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0
+Mozilla/5.0 (Windows NT 6.3; rv:100.0) Gecko/20100101 Firefox/100.0
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:100.0) Gecko/20100101 Firefox/100.0
+Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0
+Mozilla/5.0 (Windows NT 10.0; rv:100.0) Gecko/20100101 Firefox/100.0
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:100.0) Gecko/20100101 Firefox/100.0
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0
+Mozilla/5.0 (Windows NT 6.1; rv:99.0) Gecko/20100101 Firefox/99.0
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:99.0) Gecko/20100101 Firefox/99.0
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:99.0) Gecko/20100101 Firefox/99.0
+Mozilla/5.0 (Windows NT 6.3; rv:99.0) Gecko/20100101 Firefox/99.0
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:99.0) Gecko/20100101 Firefox/99.0
+Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:99.0) Gecko/20100101 Firefox/99.0
+Mozilla/5.0 (Windows NT 10.0; rv:99.0) Gecko/20100101 Firefox/99.0
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:99.0) Gecko/20100101 Firefox/99.0
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:99.0) Gecko/20100101 Firefox/99.0
+Mozilla/5.0 (Windows NT 6.1; rv:98.0) Gecko/20100101 Firefox/98.0
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:98.0) Gecko/20100101 Firefox/98.0
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0
+Mozilla/5.0 (Windows NT 6.3; rv:98.0) Gecko/20100101 Firefox/98.0
+Mozilla/5.0 (Windows NT 6.3; WOW64; rv:98.0) Gecko/20100101 Firefox/98.0
+Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0
+Mozilla/5.0 (Windows NT 10.0; rv:98.0) Gecko/20100101 Firefox/98.0
+Mozilla/5.0 (Windows NT 10.0; WOW64; rv:98.0) Gecko/20100101 Firefox/98.0
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0
