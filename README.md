@@ -9,7 +9,11 @@
 <h4 align="center">DDOS Archive by RootSec (Scanners, BotNets (Mirai and QBot Premium & Normal and more), Exploits, Methods, Sniffers).</h4>
 <p align="center">  <a href="https://t.me/realsecgroup"><img width="160" height="50" src="https://i.imgur.com/N7AK7XY.png"></a></p>
 <p align="center">SEND HERE MONEY:<br>
-BTC: bc1qh2rlecqya73sk006g74g7af7ts6jhyumwxchw2<br>
+BTC: bc1qh2rlecqya73sk006g74g7af7ts6jhyumwxchw2
+ETH: 0x66DB5eBd8F0a9177E2375Be56392BA93392FA8a2
+LTC: LVTr3Wr6BpRgpBBNJTBDRRJvr1DJy8N8dm
+USDT (TRC20): TAMgKNKS5yUKP5QvGUnRNt7aWBoYysKFmV
+
 BETTER TO SEND ME INSTEAD YOU WOULD PAY FOR THIS 200$+ PER FILE :)
 </p>
 
