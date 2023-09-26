@@ -1,4 +1,4 @@
-Welcome Back, Toady Im Showing You How To Add A Selfrep Into A Mirai Source, This Is One Of Multiple Ways To Do This.
+Welcome Back, Today Im Showing You How To Add A Selfrep Into A Mirai Source, This Is One Of Multiple Ways To Do This.
 
 First We Need To Include The Selfreps Headers By Adding
 
