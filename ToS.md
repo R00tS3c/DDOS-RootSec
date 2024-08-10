@@ -1,11 +1,11 @@
-# YOU ARE **NOT** ALLOWED TO USE THIS FILES FOR CAUSING DAMAGE TO INTERNET CONNECTIONS/SERVERS/WEBSITES... 
+### Important Notice
 
-##### [ 1 ] WE PROVIDE AN ENTIRE COLLECTION OF EVERY TYPE OF FILES ONLY FOR RESEARCH PURPOSES ONLY. USE THE FILES(AND EVERY OTHER TYPE OF FILES) ONLY IN YOUR OWN SERVER/NETWORK OR ONLY WITH AUTHORIZATION. THIS IS YOUR ONLY WARNING.
-#
-##### [ 2 ] - BY DOWNLOADING/USING OUR FREE ARCHIVE FILES DOWNLOAD, YOU ACCEPT TO BE RESPONSIBLE FOR ALL CONSEQUENCES OF YOUR ACTIONS AND THE USE OF THIS FILES. 
-#
-##### [ 3 ] - ALL MATERIALS PROVIDED IS ALREADY POSTED ON INTERNET, I ONLY TAKE AND REPOST ON THIS WEBSITE, FILES POSTED ARE ONLY FOR RESEARCH, FOR PREVENT OR STUDY. 
-#
-##### [ 4 ] - "USERS" MUST ABSTAIN FROM ANY UNLAWFUL, INAPPROPRIATE AND ABUSIVE USE OF THE CONTENT AND THE SERVICES PROVIDED ON THIS WEBSITE AT ALL TIMES, IN ACCORDANCE WITH THE EXISTING LEGISLATION, AND RESPECT THE INTELLECTUAL PROPERTY RIGHTS OF ARCHIVE, USERS MAY NOT CARRY OUT ANY ACTION VIA THE CONTENT MADE AVAILABLE TO THEM BY RootSec WHICH WILL CAUSE DAMAGE TO OR ALTERATION OF THE WEBSITE’S CONTENT, OR HINDER THE CORRECT FUNCTIONING OF THE SAME. USERS MAY NOT CAUSE ANY TECHNICAL PROBLEMS OF ANY TYPE, TRANSFER ELEMENTS LIKELY TO CARRY COMPUTER VIRUS OR WHICH MAY TOTALLY OR PARTIALLY DAMAGE, INTERFERE WITH OR INTERCEPT THIS WEBSITE OR PROPERTY OF OTHERS. 
-#
-##### [ 5 ] - NO WARRANTIES THIS WEBSITE IS PROVIDED "AS IS" WITHOUT ANY REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. THE OWNER OF THIS SITE MAKES NO REPRESENTATIONS OR WARRANTIES IN RELATION TO THIS WEBSITE OR THE INFORMATION AND MATERIALS PROVIDED ON THIS WEBSITE. WITHOUT PREJUDICE TO THE GENERALITY OF THE FOREGOING PARAGRAPH, THE OWNER OF THIS SITE DOES NOT WARRANT THAT: THIS WEBSITE WILL BE CONSTANTLY AVAILABLE, OR AVAILABLE AT ALL; OR THE INFORMATION ON THIS WEBSITE IS COMPLETE, TRUE, ACCURATE OR NON-MISLEADING. NOTHING ON THIS WEBSITE CONSTITUTES, OR IS MEANT TO CONSTITUTE, ADVICE OF ANY KIND. I DON'T HAVE MADE THIS ARCHIVE FOR PUT BACKDOOR/RAT TO INFECT VISITATORS/USERS WHO DOWNLOAD FILES, I'M NOT A KIDDIE OR A LAMMA, BUT OF COURSE, CHECK ALWAYS EVERY FILES BEFORE OPEN/EDIT OR DO EVERY OTHER TYPE OF THINGS.
+1. **Prohibited Use**: You are **strictly prohibited** from using any files obtained from this website to cause harm or damage to internet connections, servers, websites, or any other digital infrastructure.
+
+2. **Research Purpose Only**: The collection of files provided on this website is intended **solely for research purposes**. These files should be used exclusively on your own server or network, or with explicit authorization from the appropriate parties. This is your only warning.
+
+3. **User Responsibility**: By downloading or using any files from our free archive, you acknowledge and accept full responsibility for any consequences arising from your actions. The files are provided for research, prevention, and study purposes only.
+
+4. **Legal and Ethical Use**: Users must refrain from any unlawful, inappropriate, or abusive use of the content and services provided on this website. All users are required to comply with applicable laws and respect intellectual property rights. Any actions that could damage or alter the website's content, disrupt its functionality, or cause technical issues, including the transfer of viruses or harmful elements, are strictly prohibited.
+
+5. **Disclaimer of Warranties**: This website is provided "as is" without any representations or warranties, express or implied. The site owner makes no guarantees regarding the availability, accuracy, or completeness of the information and materials provided. Users are advised to always scan and verify files before opening, editing, or using them in any way. The site owner is not responsible for any potential backdoors, RATs, or other malicious software that may be present in downloaded files, and users should exercise caution at all times.
